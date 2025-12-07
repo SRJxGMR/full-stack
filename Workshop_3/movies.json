@@ -1,0 +1,22 @@
+{
+  "movies": [
+    {
+      "id": "2e0d",
+      "title": "Intersteller-2",
+      "year": 2015,
+      "genre": "sifi, space-travel,fictional"
+    },
+    {
+      "id": "39f9",
+      "title": "Smurfs",
+      "genre": "fictional,magical",
+      "year": 2015
+    },
+    {
+      "id": "7147",
+      "title": "The Flash",
+      "genre": "fictional,sifi",
+      "year": 2019
+    }
+  ]
+}
