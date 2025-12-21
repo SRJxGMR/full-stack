@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* Main glass container */
+.glass-container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    border-radius: 18px;
+    padding: 35px 45px;
+    width: 420px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* Title */
+.glass-container h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+/* Paragraph */
+.glass-container p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* Links */
+.glass-container ul {
+    list-style: none;
+}
+
+.glass-container li {
+    margin: 10px 0;
+}
+
+.glass-container a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.glass-container a:hover {
+    text-decoration: underline;
+}
+
+/* Footer text */
+.footer {
+    margin-top: 20px;
+    font-size: 12px;
+    opacity: 0.85;
+}
