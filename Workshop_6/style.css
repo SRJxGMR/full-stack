@@ -1,0 +1,12 @@
+.table {
+  border-collapse: collapse;
+  width: 70%;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+form {
+  margin-bottom: 20px;
+}
